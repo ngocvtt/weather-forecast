@@ -12,7 +12,7 @@ Build and android app to retrieve weather information based on their searching c
 - API does not provide accent string search. I handled this issue by decent the string before calling API
 
 ### Principles, patterns & practice being applied
-In this simple application, I used MVC, which I feel way more comfortable to use, to design the architechture.
+In this simple application, I used MVC, which I feel way more comfortable to use, to design the architecture.
 Beside, I follow Single responsibility principle to make sure my classes/functions keep it own responsibility (which is the most important principle).
 
 ### Folder Structure
