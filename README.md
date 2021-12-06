@@ -14,6 +14,7 @@ Build and android app to retrieve weather information based on their searching c
 ### Principles, patterns & practice being applied
 In this simple application, I used MVC, which I feel way more comfortable to use, to design the architecture.
 Beside, I follow Single responsibility principle to make sure my classes/functions keep it own responsibility (which is the most important principle).
+Some static classes are defined to provide commonly use method.
 
 ### Folder Structure
   - activities: activity files
@@ -35,6 +36,6 @@ Beside, I follow Single responsibility principle to make sure my classes/functio
 ### Check List: Expected Output Completed - 1,2,3,4,6,7,8  
  
 ### Suggestion in future
- Since OpenWeatherMap API provide us 3 params that could be customize by users (city, cnt, unit), it would be nice to have a Settings page, where users could change their
- setting and save them to cache. The settings page could contain a seek bar to choose number of day displayed from 1 to 17, 3 radio button to allow user pick the temperature unit
- (Kelvin, Celcius, Fahrenheit). If we plan to make this project multi-language, we could add a dropdown menu to provide the language that we supported to the settings page too.
+Since OpenWeatherMap API provide us 3 params that could be customize by users (city, cnt, unit), it would be nice to have a Settings page, where users could change their
+setting and save them to cache. The settings page could contain a seek bar to choose number of day displayed from 1 to 17, 3 radio button to allow user pick the temperature unit
+(Kelvin, Celsius, Fahrenheit). If we plan to make this project multi-language, we could add a dropdown menu to provide the language that we supported to the settings page too.
