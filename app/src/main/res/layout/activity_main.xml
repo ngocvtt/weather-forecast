@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+   <EditText
+       android:id="@+id/edt_search"
+       android:layout_width="match_parent"
+       android:textSize="18sp"
+       android:layout_height="50dp"
+       android:hint="@string/edt_city_search_hint"
+       android:inputType="text"
+       tools:ignore="LabelFor">
+
+   </EditText>
+
+
+   <Button
+       android:id="@+id/btn_getWeather"
+       android:layout_width="wrap_content"
+       android:layout_height="50dp"
+       android:textAllCaps="false"
+       android:text="@string/lb_get_weather">
+
+   </Button>
+
+   <ListView
+       android:id="@+id/weatherListView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </ListView>
+
+</LinearLayout>

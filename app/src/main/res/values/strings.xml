@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="notice">Notice</string>
+    <string name="error">Error</string>
+    <string name="lb_get_weather">Get Weather</string>
+    <string name="edt_city_search_hint">Search City...</string>
+    <string name="msg_input_more_than_2_char">Your input must be more than 2 characters</string>
+    <string name="msg_device_rooted">This device is rooted!</string>
+</resources>
